@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "target": "ES2021",
+    "module": "CommonJS",
+    "outDir": "./dist", // Output directory for compiled JavaScript files
+    "rootDir": "./src", // Source directory for TypeScript files
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    // "resolveJsonModule": true,
+    "declaration": false
+  },
+  "include": [ "./env.d.ts", "src/**/*.ts"], // Files to include for compilation
+  "exclude": ["node_modules"]
+}
